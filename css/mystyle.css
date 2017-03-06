@@ -4,8 +4,11 @@
     font-size: 14px;
 }
 
-#page1-1{ background: url(../img/true.jpg) no-repeat;
-    background-size: 100% 100%}
+#page1-1 {
+    background: url(../img/true.jpg) no-repeat;
+    background-size: 100% 100%
+}
+
 .mymusic {
     width: 30px;
     height: 30px;
@@ -553,16 +556,23 @@
     right: 5vw
 }
 
+.neirong-right ul li {
+    list-style: none;
+    margin-left: -9vw;
+width: 40vh;
+height: 5vh;margin-top: 3.7vh
+}
+
 .box {
     background-color: #06c;
     width: 70vw;
     height: 3vh;
     border-radius: 2vw;
-    margin-top: 4vh;
     position: relative
 }
 
-.yi {
+
+/*.yi {
     margin-top: 5.5vh
 }
 
@@ -576,7 +586,7 @@
 
 .si {
     margin-top: 5.5vh
-}
+}*/
 
 .bar {
     background-color: seagreen;
