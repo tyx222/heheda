@@ -12,7 +12,7 @@ function clock() {
         size.innerHTML = `${Math.floor(barWidth/j)}%`
         if (barWidth == boxwidth) {
             setTimeout(function () {
-                window.location.href = "index2.html";
+                window.location.href = "http://htmlpreview.github.io/?https://github.com/tyx222/heheda/blob/master/h5%E6%A8%A1%E6%8B%9F%E4%B8%8B%E8%BD%BD/html/index2.html";
             }, 2000)
             return clearInterval(rtn)
         }
