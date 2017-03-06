@@ -555,12 +555,12 @@
     position: absolute;
     right: 5vw
 }
-
+.neirong-right ul{margin-top: 4vh}
 .neirong-right ul li {
     list-style: none;
     margin-left: -9vw;
-width: 40vh;
-height: 5vh;margin-top: 3.7vh
+    width: 40vh;
+    height: 8.5vh;
 }
 
 .box {
