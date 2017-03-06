@@ -1,0 +1,108 @@
+    .navbar {
+        width: 100%;
+        background: #ecf0f3;
+        text-align: center;
+    }
+    
+    .nav {
+        display: flex;
+        width: 80%;
+        justify-content: flex-start;
+        padding: 0.480rem;
+    }
+    
+    .nav h3 {
+        font-size: 0.960rem;
+        margin-left: 25%;
+    }
+    
+    .nav h1 {
+        font-size: 0.960rem;
+    }
+    
+    .back {
+        width: 9%;
+        height: 100%;
+        align-self: center;
+        padding-left: 0.480rem;
+    }
+    
+    .img-2 {
+        width: 100vw;
+        height: 45vh;
+        background-color: #06c;
+        padding-top: 5vh;
+        text-align: center
+    }
+    
+    .img-2>p {
+        color: #fff;
+        background-color: #62B0FF;
+        width: 70vw;
+        margin-left: 15vw;
+        height: 7vh;
+        margin-top: 5vh;
+        line-height: 7vh;
+        font-size: 1rem;
+        border-radius: 5vh
+    }
+    
+    .img-2>span {
+        color: #fff;
+        font-size: 0.6rem;
+        margin-top: 2vh;
+        display: inline-block
+    }
+    
+    .gx {
+        border: 1px solid #666;
+        width: 100vw;
+        height: 8vh;
+        line-height: 8vh
+    }
+    
+    .gx>img {
+        margin-top: 2vh;
+        margin-left: 4vw
+    }
+    
+    .gx>span {
+        margin-left: 10vw;
+        font-size: 0.6rem;
+        font-weight: 900
+    }
+    
+    .new {
+        float: right;
+        width: 10vw;
+
+        margin-top: 1vh!important
+    }
+    
+    .qianjing {
+        width: 7vw;
+        float: right;
+        margin-right: 10vw
+    }
+    
+    #anniu {
+        width: 15vw;
+        height: 2vh;
+        position: relative;
+        margin-top: -5.5vh;
+        margin-left: 75vw;
+        border-radius: 2vh;
+        background-color: #C6C5C5
+    }
+    
+    #anniu>span {
+        width: 4vh;
+        height: 4vh;
+        border-radius: 50%;
+        display: inline-block;
+        background: #F0F0F0;
+        margin-top: -1vh;
+        position: absolute;
+    }
+    .org{right: 0vw;background-color: #06c!important;}
+    .org1{background-color: #62B0FF!important}

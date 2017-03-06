@@ -1,0 +1,60 @@
+.conter {
+    width: 100vw;
+    height: 10vh;
+    line-height: 10vh;
+    text-align: center;
+    background-color: #ecf0f3
+}
+
+.conter>img {
+    width: 10vw;
+    margin-top: 2.5vh;
+    position: absolute;
+    left: 4vw
+}
+
+.conter>span {
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.Head {
+    text-align: center;
+    margin-top: 10vh
+}
+
+#box {
+    background-color: #ecf0f3;
+    width: 70vw;
+    height: 3vh;
+    border-radius: 2vh;
+    margin-left: 15vw;
+    margin-top: 5vh
+}
+
+#indesize {
+    width: 100vw;
+    height: 10vh;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 5vh
+}
+
+.kuang {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #858585
+}
+
+#bar {
+    background-color: #7ed321;
+    width: 0px;
+    height: 3vh;
+    margin-left: 0px;
+    border-radius: 2vh;
+}
+
+
+
+
+

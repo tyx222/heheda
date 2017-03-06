@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/cube.css">
+    <link rel="stylesheet" href="../css/baston.css">
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="nav" style="justify-content: space-between;">
+            <div class="back">
+               <a href="index.html"> <img src="../img/返回.png" alt="" ></a>
+            </div>
+
+            <h1>号码识别设置</h1>
+            <h1>帮助</h1>
+        </div>
+    </div>
+    <div class="img-2"><img src="../img/bg_dagou@2x.png" alt="">
+        <p id="jiancha">检查更新</p>
+        <span>上次更新时间：2016.12.12</span>
+    </div>
+    <div class="gx">
+        <img src="../img/iocn_wenjianbao@3x.png" alt="">
+        <span>号码扩展包</span>
+        <img src="../img/前进.png" class="qianjing">
+        <img src="../img/NEW.png" alt="" class="new">
+    </div>
+    <div class="gx">
+        <img src="../img/iocn_wi-fi@3x.png" alt="">
+        <span>WI-FI下自动检查更新</span>
+        <div id="anniu"><span class="dian"></span></div>
+    </div>
+
+
+
+
+    <script src="../js/jquery-2.1.1.min.js"></script>
+    <script src="../js/init.js"></script>
+    <script src="../js/index.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#jiancha").click(function () {
+                $("#jiancha").text("正在检查更新...");
+                setTimeout(function () {
+                    $("#jiancha").text("更新完成");
+                }, 2000)
+            })
+
+            $(".dian").click(function () {
+                $(".dian").toggleClass("org")
+                $("#anniu").toggleClass("org1")
+                //$(".dian").animate({background:"#06c!important",right: "0vw"})
+            })
+        })
+    </script>
+</body>
+
+</html>
